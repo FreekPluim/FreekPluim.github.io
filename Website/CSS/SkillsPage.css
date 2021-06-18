@@ -1,0 +1,45 @@
+.Main{
+}
+
+.Main h1{
+    background-color: #161E26;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.Languages{
+    display: flex;
+    background-color: #161E26;
+}
+
+.Languages section{
+    padding-right: 50px;
+    padding-left: 20px;
+    max-width: 30%;
+}
+
+.Languages section h3{
+    text-align: center;
+}
+
+
+.Engines{
+    display: flex;
+    margin-left: 0px;
+    background-color: #161E26;
+}
+
+.Engines section{
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+.Engines section h3{
+    text-align: center;
+}
+
