@@ -1,0 +1,98 @@
+.Main h1{
+    background-color: #161E26;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.Main h2{
+    text-align: center;
+}
+
+.Main h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: -20px;
+    font-size: 40px;
+}
+
+.Main article{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Main article article article{
+    padding-top: 10px;
+}
+
+/*-------------------------------------------
+                GotNobody
+-------------------------------------------*/
+
+.GotNobody{
+    background-color: #161E26;
+}
+
+.GotNobody section{
+    display: flex;
+}
+
+.GotNobody section iframe{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+
+/*-------------------------------------------
+            The Blood Night
+-------------------------------------------*/
+.TheBloodNight{
+    background-color: #161E26;
+}
+
+.TheBloodNight section{
+    display: flex;
+}
+
+.TheBloodNight section iframe{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+/*-------------------------------------------
+                Trickshot
+-------------------------------------------*/
+
+.TrickShot{
+    background-color: #161E26;
+}
+
+.TrickShot section{
+    display: flex;
+}
+
+.TrickShot section iframe{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+/*-------------------------------------------
+            Global GameJam 2021
+-------------------------------------------*/
+
+.GGJ2021{
+    background-color: #161E26;
+}
+
+.GGJ2021 img{
+    width: 500px;
+    height: auto;
+}
+
+.GGJ2021 section{
+    display: flex;
+}

@@ -1,0 +1,130 @@
+body{
+    background-color: #151121;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 160%;
+}
+
+
+/*-------------------------------------------
+                Header/Banner
+-------------------------------------------*/
+.Header{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.Banner img{
+    background-image: url(IMG/banner.png);
+    position: relative;
+    width: 100vw;
+    top: -25px;
+    left: -50px;
+    margin-right: -100px;
+}
+
+.Nav{
+    font-size: 30px;
+    width: 100vw;
+    
+    position: sticky;
+    
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+    margin-top: -55px;
+    background-color: #151121;
+}
+
+.Nav ul{
+    list-style-type: none;
+}
+
+.Nav li{
+    display: inline;
+}
+.Nav a{
+    padding: 0px 20px;
+    color: white;
+    
+}
+a{
+    color: white;
+}
+
+a:hover{
+    color: gray;
+}
+
+/*-------------------------------------------
+                BlockA
+-------------------------------------------*/
+
+.blockA{
+    display: flex;
+}
+
+.MainAboutMe{
+    margin-top: -10px;
+    margin-right: 10px;
+    width: 70%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.AboutMe{
+    background-color: #161E26;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.Aside{
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 30px;
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #161E26;
+}
+
+.Achievements a{
+    color: white;
+}
+.Achievements a:hover{
+    color: gray;
+}
+
+.Skills{
+    background-color: #161E26;
+    padding-left: 10px;
+}
+
+.blockSkills{
+    display: flex;
+    margin-top: -30px;
+}
+
+.Engines{
+    margin-left: 20px;
+}
+
+/*-------------------------------------------
+                Footer
+-------------------------------------------*/
+
+.Footer{
+    display: flex;
+    justify-content: center;
+}
+
+.Footer img{
+    width: 50%;
+    height: auto;
+}
+
+.GitHubImage{
+    padding-left: 100px;
+    margin-right: -130px;
+}
