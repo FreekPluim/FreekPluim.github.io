@@ -1,11 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #151121;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: white;
     font-size: 160%;
+    overflow-x: hidden;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 /*-------------------------------------------
                 Header/Banner
 -------------------------------------------*/
@@ -66,26 +73,22 @@ a:hover{
 }
 
 .MainAboutMe{
-    margin-top: -10px;
     margin-right: 10px;
     width: 70%;
     padding-left: 10px;
-    padding-top: 10px;
 }
 
 .AboutMe{
     background-color: #161E26;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .Aside{
-    margin-top: 30px;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 30px;
-    width: 25%;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 30%;
+    padding: 10px;
     background-color: #161E26;
 }
 
@@ -98,7 +101,7 @@ a:hover{
 
 .Skills{
     background-color: #161E26;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .blockSkills{

@@ -29,15 +29,15 @@
                 GotNobody
 -------------------------------------------*/
 
-.GotNobody{
+#GotNobody{
     background-color: #161E26;
 }
 
-.GotNobody section{
+#GotNobody section{
     display: flex;
 }
 
-.GotNobody section iframe{
+#GotNobody section iframe{
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -47,15 +47,15 @@
 /*-------------------------------------------
             The Blood Night
 -------------------------------------------*/
-.TheBloodNight{
+#TheBloodNight{
     background-color: #161E26;
 }
 
-.TheBloodNight section{
+#TheBloodNight section{
     display: flex;
 }
 
-.TheBloodNight section iframe{
+#TheBloodNight section iframe{
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -65,15 +65,15 @@
                 Trickshot
 -------------------------------------------*/
 
-.TrickShot{
+#TrickShot{
     background-color: #161E26;
 }
 
-.TrickShot section{
+#TrickShot section{
     display: flex;
 }
 
-.TrickShot section iframe{
+#TrickShot section iframe{
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -84,15 +84,15 @@
             Global GameJam 2021
 -------------------------------------------*/
 
-.GGJ2021{
+#GGJ2021{
     background-color: #161E26;
 }
 
-.GGJ2021 img{
+#GGJ2021 img{
     width: 500px;
     height: auto;
 }
 
-.GGJ2021 section{
+#GGJ2021 section{
     display: flex;
 }
