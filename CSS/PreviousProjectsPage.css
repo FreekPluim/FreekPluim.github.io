@@ -1,8 +1,12 @@
 .Main h1{
-    background-color: #161E26;
+    background-color: #CEA2F8;
     margin-top: -10px;
     margin-left: -20px;
     margin-right: -20px;
+}
+
+.explanation{
+    text-align: center;
 }
 
 .Main h2{
@@ -25,12 +29,36 @@
     padding-top: 10px;
 }
 
+.collapsible {
+    background-color: #CEA2F8;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 40px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #dab8fa;
+  }
+
+  .content {
+    padding: 0 18px;
+    padding-bottom: 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #dab8fa;
+  }
+
 /*-------------------------------------------
                 GotNobody
 -------------------------------------------*/
 
 #GotNobody{
-    background-color: #161E26;
+    background-color: #CEA2F8;
 }
 
 #GotNobody section{
@@ -48,7 +76,7 @@
             The Blood Night
 -------------------------------------------*/
 #TheBloodNight{
-    background-color: #161E26;
+    background-color: #CEA2F8;
 }
 
 #TheBloodNight section{
@@ -66,7 +94,7 @@
 -------------------------------------------*/
 
 #TrickShot{
-    background-color: #161E26;
+    background-color: #CEA2F8;
 }
 
 #TrickShot section{
@@ -85,7 +113,7 @@
 -------------------------------------------*/
 
 #GGJ2021{
-    background-color: #161E26;
+    background-color: #CEA2F8;
 }
 
 #GGJ2021 img{
@@ -94,5 +122,18 @@
 }
 
 #GGJ2021 section{
+    display: flex;
+}
+
+#GGJ2022{
+    background-color: #CEA2F8;
+}
+
+#GGJ2022 img{
+    width: 500px;
+    height: auto;
+}
+
+#GGJ2022 section{
     display: flex;
 }

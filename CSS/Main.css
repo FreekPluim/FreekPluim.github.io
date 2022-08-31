@@ -3,9 +3,9 @@
 }
 
 body{
-    background-color: #151121;
+    background-color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: white;
+    color: black;
     font-size: 160%;
     overflow-x: hidden;
 }
@@ -28,20 +28,19 @@ html{
     width: 100vw;
     top: -25px;
     left: -50px;
-    margin-right: -100px;
+    
 }
 
 .Nav{
     font-size: 30px;
-    width: 100vw;
+    width: 98vw;
     
     position: sticky;
     
     display: flex;
     justify-content: center;
-    margin-left: -10px;
-    margin-top: -55px;
-    background-color: #151121;
+    
+    background-color: #CEA2F8;
 }
 
 .Nav ul{
@@ -52,16 +51,18 @@ html{
     display: inline;
 }
 .Nav a{
-    padding: 0px 20px;
-    color: white;
+    padding: 0px 80px;
+    color: black;
+    font-weight: bold;
+
     
 }
 a{
-    color: white;
+    color: black;
 }
 
 a:hover{
-    color: gray;
+    color: rgb(34, 31, 31);
 }
 
 /*-------------------------------------------
@@ -73,44 +74,60 @@ a:hover{
 }
 
 .MainAboutMe{
-    margin-right: 10px;
     width: 70%;
     padding-left: 10px;
 }
 
 .AboutMe{
-    background-color: #161E26;
-    padding: 10px;
+    background-color: #CEA2F8;
+    padding-left: 10px;
     margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.AboutMe h3{
+    padding-top: 10px;
+}
+
+.bottomOfAboutMe{
+    padding-bottom: 15px;
 }
 
 .Aside{
+    margin-top: 30px;
     margin-right: 5px;
     margin-left: 30px;
     width: 30%;
-    padding: 10px;
-    background-color: #161E26;
+    padding-left: 10px;
+    background-color: #CEA2F8;
+    border-radius: 25px;
 }
 
 .Achievements a{
-    color: white;
+    color: black;
 }
 .Achievements a:hover{
-    color: gray;
+    color: darkgray;
 }
 
 .Skills{
-    background-color: #161E26;
-    padding: 10px;
+    background-color: #CEA2F8;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+.Skills h1{
+    padding-top: 10px;
 }
 
 .blockSkills{
     display: flex;
-    margin-top: -30px;
+    justify-content: left;
+    align-items: left;
+    margin-top: -50px;
 }
 
 .Engines{
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 /*-------------------------------------------

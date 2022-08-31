@@ -1,3 +1,9 @@
 .Main{
-    background-color: #161E26;
+    background-color: #CEA2F8;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.Main img{
+    width: 450px;
 }
