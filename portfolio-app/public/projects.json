@@ -1,0 +1,219 @@
+{
+    "Projects": [
+    {
+        "Name": "Call for Action",
+        "Img": "./CallForAction.png",
+        "Video": "./BeforeTheStorm.mp4",
+        "Oneliner": "A game where you complete menial tasks within a timelimit or else get punished",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>This project was created by me as a solo developer in 36 hours during a gamejam hosted by Study assotiation XP. In this game you complete small tasks before the timer runs out on said task. If you fail 3 in 1 day, the day will end and you will get 1 strike. If you get 3 strikes you are out. Every day, more tasks will be added with different time limits and different difficulty levels. On day 5, no more tasks will be added, but the time you have on each task will be shortened.</p><br/>",
+            "<p>The tasks are not difficult, but remember! If you need help, you can always call 6.</p>"
+        ],
+            "Tags": ["All", "Unity", "Solo", "GameJam", "3D"],
+        "GitHub": "https://github.com/FreekPluim/XP-GameJam2025",
+        "Itch": "https://s4lt1.itch.io/call-for-action"
+    },
+    {
+        "Name": "Shadows of Singraven",
+        "Img": "./ShadowsOfSingraven.png",
+        "Video": "./BeforeTheStorm.mp4",
+        "Oneliner": "A puzzle, horror game about the legend of 'De non van Singraven'.",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>About the game</p>",
+            "<h5>Story</h5>",
+            "<p>Over 500 years ago, Singraven Manor was a convent. The nun died in mysterious circumstances. She was unfairly sentenced and bricked alive into the wall by other nuns. Every soul living in Singraven heard her cries and screams until the nun’s last breath.</p>",
+            "<p>Over 500 years ago, Singraven Manor was a convent. The nun died in mysterious circumstances. She was unfairly sentenced and bricked alive into the wall by other nuns. Every soul living in Singraven heard her cries and screams until the nun’s last breath.</p>",
+            "<p>100 years past, the Netherlands was the first to stop executing witches. While magic faded, a new conflict arose: Protestants clashed with Catholics. Yet, farmers still believed in the paranormal. Singraven owners are terrified, and as the last witch hunter, your mission is to uncover the truth. Do you hear it? The nun is screaming... Can you feel it? It is your heartbeat. </p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],        
+        "Tags": ["All", "Unreal Engine 5.4", "Team", "Puzzle", "Horror", "Folklore", "3D"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "Tower of Masks",
+        "Img": "./TowerOfMasks.png",
+        "Video": "./BeforeTheStorm.mp4",
+        "Oneliner": "A 2D, Topdown puzzle game where you use the abilties of masks to get through rooms.",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Unity", "GameJam", "Team", "Puzzle", "2D"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "Before the Storm",
+        "Img": "./BeforeTheStorm.png",
+        "Video": "./BeforeTheStorm.mp4",
+        "Oneliner": "A game where you try to get as many animals back to the barn before the storm arives.",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>Story</h5>",
+            "<p>The story of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Unity", "GameJam", "Solo", "3D", "Voxel"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "Chippie's Circus",
+        "Img": "",
+        "Video": "./BeforeTheStorm.mp4",
+        "Oneliner": "Chippie the cat needs to entertain the croud by performing tricks on the stage.",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Unity", "GameJam", "Team", "MiniGames", "3D"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "Lux et Nox",
+        "Img": "./LuxetNox.png",
+        "Video": "./BeforeTheStorm.mp4",
+        "Oneliner": "2 cats make their way through a dungeon. one can't touch light, the other cannot touch darkness.",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Unity", "GameJam", "Team", "MiniGames", "3D"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "XP Wolves",
+        "Img": "./XPWolves.png",
+        "Video": "",
+        "Oneliner": "A bot made for study assotiation XP to play werewolves for a week long in discord.",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "JavaScript", "Discord Bot", "Werewolves", "MongoDB"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "Identification Station",
+        "Img": "./IdentificationStation.png",
+        "Video": "./BeforeTheStorm.mp4",
+        "Oneliner": "You are an artificer working to figure out what the wizard have made this time...",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Unity", "GameJam", "Team", "MiniGames", "3D"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "Brewconomy",
+        "Img": "./Brewconomy.png",
+        "Video": "./BeforeTheStorm.mp4",
+        "Oneliner": "You're a potion seller, brewing potions and selling them to all different types of people",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Unity", "Team", "Puzzle", "Cozy", "Economy", "Fantasy"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "Bariatric care",
+        "Img": "",
+        "Video": "",
+        "Oneliner": "A VR simulation, simulating a supermarket to help people who had a stoumach reduction how to shop healthier.",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Unreal Engine 5.4", "Team", "Simulation", "Healthcare", "VR", "3D", "Serious"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "Reintegration after burnout",
+        "Img": "",
+        "Video": "./Reintegration.mp4",
+        "Oneliner": "A simulation for employers to feel like how it is to have burnout.",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Unreal Engine 5.4", "Team", "Simulation", "Healthcare", "VR", "3D", "Serious"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "AR Route app",
+        "Img": "",
+        "Video": "",
+        "Oneliner": "An app created for Enschede Promotie. It is used for people to walk through Enschede and use their camera to show what some buildings used to look like",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Unity", "Team", "AR", "2D", "3D", "Niantic", "AR Foundation", "Enschede Promotie", "Serious"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "Portfolio Website",
+        "Img": "",
+        "Video": "",
+        "Oneliner": "The website you currently find yourself on",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Web", "Solo", "NextJS", "TypeScript"],
+        "GitHub": "",
+        "Itch": ""
+    },
+    {
+        "Name": "Hour Registration Website",
+        "Img": "",
+        "Video": "",
+        "Oneliner": "Updating and managing the front-end of a website used by Saxion Univeristy for hour registration.",
+        "Description": [ 
+            "<h5>About the game</h5>",
+            "<p>General information of the game</p>",
+            "<h5>My contribution</h5>",
+            "<p>My contribution to the game</p>"
+        ],
+        "Tags": ["All", "Web", "Team", "Angular 14", "SQL"],
+        "GitHub": "",
+        "Itch": ""
+    }
+    ]
+}
