@@ -1,6 +1,16 @@
 "use client";
 
-export default function TagFilter({ Tag, onClick, isSelected }) {
+interface TagFilterProps {
+  Tag: string;
+  onClick: (tag: string) => void;
+  isSelected: boolean;
+}
+
+export default function TagFilter({
+  Tag,
+  onClick,
+  isSelected,
+}: TagFilterProps) {
   const buttonStyles = isSelected
     ? "border-purple-500"
     : "border-stone-500 hover:border-white";

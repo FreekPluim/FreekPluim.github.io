@@ -3,7 +3,7 @@
     {
         "Name": "Call for Action",
         "Img": "./CallForAction.png",
-        "Video": "./BeforeTheStorm.mp4",
+        "Video": "",
         "Oneliner": "A game where you complete menial tasks within a timelimit or else get punished",
         "Description": [ 
             "<h5>About the game</h5>",
@@ -17,7 +17,7 @@
     {
         "Name": "Shadows of Singraven",
         "Img": "./ShadowsOfSingraven.png",
-        "Video": "./BeforeTheStorm.mp4",
+        "Video": "",
         "Oneliner": "A puzzle, horror game about the legend of 'De non van Singraven'.",
         "Description": [ 
             "<h5>About the game</h5>",
@@ -36,7 +36,7 @@
     {
         "Name": "Tower of Masks",
         "Img": "./TowerOfMasks.png",
-        "Video": "./BeforeTheStorm.mp4",
+        "Video": "",
         "Oneliner": "A 2D, Topdown puzzle game where you use the abilties of masks to get through rooms.",
         "Description": [ 
             "<h5>About the game</h5>",
@@ -68,7 +68,7 @@
     {
         "Name": "Chippie's Circus",
         "Img": "",
-        "Video": "./BeforeTheStorm.mp4",
+        "Video": "",
         "Oneliner": "Chippie the cat needs to entertain the croud by performing tricks on the stage.",
         "Description": [ 
             "<h5>About the game</h5>",
@@ -83,7 +83,7 @@
     {
         "Name": "Lux et Nox",
         "Img": "./LuxetNox.png",
-        "Video": "./BeforeTheStorm.mp4",
+        "Video": "",
         "Oneliner": "2 cats make their way through a dungeon. one can't touch light, the other cannot touch darkness.",
         "Description": [ 
             "<h5>About the game</h5>",
@@ -113,7 +113,7 @@
     {
         "Name": "Identification Station",
         "Img": "./IdentificationStation.png",
-        "Video": "./BeforeTheStorm.mp4",
+        "Video": "",
         "Oneliner": "You are an artificer working to figure out what the wizard have made this time...",
         "Description": [ 
             "<h5>About the game</h5>",
@@ -128,7 +128,7 @@
     {
         "Name": "Brewconomy",
         "Img": "./Brewconomy.png",
-        "Video": "./BeforeTheStorm.mp4",
+        "Video": "",
         "Oneliner": "You're a potion seller, brewing potions and selling them to all different types of people",
         "Description": [ 
             "<h5>About the game</h5>",

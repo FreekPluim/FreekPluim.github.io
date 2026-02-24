@@ -1,15 +1,15 @@
 "use client";
 
-import PortfolioItem from "./PortfolioItemComponent";
-import projects from "../public/projects.json";
-import TagFilter from "./TagFilterComponent";
+import PortfolioItem from "../components/PortfolioItemComponent";
+import projects from "../data/projects.json";
+import TagFilter from "../components/TagFilterComponent";
 import { useState } from "react";
-import { PortfolioItemModal } from "./PortfolioItemModal";
+import Image from "next/image";
 
 export default function Home() {
   const Projects = projects.Projects;
 
-  let allTags: Array<string> = [
+  const allTags: Array<string> = [
     "All",
     "Unity",
     "Unreal Engine 5.4",
@@ -21,7 +21,7 @@ export default function Home() {
 
   const [tag, setTag] = useState("All");
 
-  const handleTagChange = (newTag) => {
+  const handleTagChange = (newTag: string) => {
     setTag(newTag);
   };
 
@@ -36,9 +36,10 @@ export default function Home() {
       {/*ABOUT ME*/}
       <div className="flex flex-col md:flex-row justify-center gap-20 lg:gap-50 pb-10 p-10 mb-30">
         <img
-          src={"/pfp.png"}
+          src="/pfp.png"
+          alt="Profile Picture"
           className="flex self-center max-h-75 max-w-75 lg:max-w-100 lg:max-h-100 rounded-full"
-        ></img>
+        />
         <div>
           <h1 className="text-5xl pb-3 w-full ">About Me</h1>
           <p className="max-w-200 lg:mt-15 text-xl">
@@ -62,29 +63,33 @@ export default function Home() {
       {/*TAG FILTERS*/}
       <div className="w-full items-center flex justify-center">
         <div className="pl-5 pb-3 flex flex-wrap justify-center gap-3 max-w-200">
-          {allTags.map((t) => (
-            <TagFilter
-              Tag={t}
-              onClick={handleTagChange}
-              isSelected={tag === t}
-            />
+          {allTags.map((t, index) => (
+            <div key={index}>
+              <TagFilter
+                Tag={t}
+                onClick={handleTagChange}
+                isSelected={tag === t}
+              />
+            </div>
           ))}
         </div>
       </div>
 
       {/*Portfolio Items*/}
       <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-5 ml-5 mr-5">
-        {filteredProjects.map((project) => (
-          <PortfolioItem
-            title={project.Name}
-            videoSrc={project.Video || null}
-            img={project.Img || null}
-            oneLiner={project.Oneliner}
-            tags={project.Tags}
-            description={project.Description}
-            github={project.GitHub || null}
-            itch={project.Itch || null}
-          />
+        {filteredProjects.map((project, index) => (
+          <div key={index}>
+            <PortfolioItem
+              title={project.Name}
+              videoSrc={project.Video}
+              img={project.Img}
+              oneLiner={project.Oneliner}
+              tags={project.Tags}
+              description={project.Description}
+              github={project.GitHub}
+              itch={project.Itch}
+            />
+          </div>
         ))}
       </div>
 

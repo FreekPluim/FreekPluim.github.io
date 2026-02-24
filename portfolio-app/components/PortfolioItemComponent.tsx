@@ -1,9 +1,25 @@
 "use client";
 
 import TagComponent from "./TagComponent";
-import HoverVideoPlayer from "react-hover-video-player";
 import { useState } from "react";
 import { PortfolioItemModal } from "./PortfolioItemModal";
+
+import dynamic from "next/dynamic";
+
+const HoverVideoPlayer = dynamic(() => import("react-hover-video-player"), {
+  ssr: false,
+});
+
+interface PortfolioItemProps {
+  title: string;
+  videoSrc: string;
+  img: string;
+  oneLiner: string;
+  tags: string[];
+  description: string[];
+  github: string;
+  itch: string;
+}
 
 export default function PortfolioItem({
   title,
@@ -14,22 +30,22 @@ export default function PortfolioItem({
   description,
   github,
   itch,
-}) {
-  const filteredTags = tags.filter((t) => t !== "All");
+}: PortfolioItemProps) {
+  const filteredTags = tags.filter((t: string) => t !== "All");
 
   const [isModalVisible, setIsModalVisible] = useState(false);
 
-  const hasLink = github || itch ? true : false;
+  const hasLink = github != "" || itch != "" ? true : false;
 
   return (
     <div
-      onClick={(e) => {
+      onClick={() => {
         if (isModalVisible) return;
         setIsModalVisible(true);
       }}
       className="w-full bg-[#23122e] rounded-lg overflow-hidden shadow flex flex-col"
     >
-      {videoSrc != null && (
+      {videoSrc != "" && (
         <HoverVideoPlayer
           className="w-full object-cover"
           videoSrc={videoSrc}
@@ -41,7 +57,7 @@ export default function PortfolioItem({
           }
         />
       )}
-      {videoSrc == null && (
+      {videoSrc == "" && (
         <div>
           <ThumbnailImage img={img} tags={tags} />
         </div>
@@ -50,8 +66,10 @@ export default function PortfolioItem({
         <h1 className="text-4xl text-white">{title}</h1>
         <p className="text-md text-white pt-2 pb-2">{oneLiner}</p>
         <div className="mt-auto flex flex-wrap-reverse gap-2 pt-2 pb-2">
-          {filteredTags.map((tag) => (
-            <TagComponent text={tag} />
+          {filteredTags.map((tag, index) => (
+            <div key={index}>
+              <TagComponent text={tag} />
+            </div>
           ))}
         </div>
       </div>
@@ -62,7 +80,7 @@ export default function PortfolioItem({
       >
         <div className="w-full p-2">
           <h1 className="text-3xl font-bold flex justify-center">{title}</h1>
-          {videoSrc != null && (
+          {videoSrc != "" && (
             <HoverVideoPlayer
               className="w-full object-cover"
               videoSrc={videoSrc}
@@ -74,13 +92,14 @@ export default function PortfolioItem({
               }
             />
           )}
-          {videoSrc == null && (
+          {videoSrc == "" && (
             <div>
               <ThumbnailImage img={img} tags={tags} />
             </div>
           )}
-          {description.map((line: string) => (
+          {description.map((line: string, index) => (
             <div
+              key={index}
               className={"mt-2"}
               dangerouslySetInnerHTML={{ __html: line }}
             ></div>
@@ -89,12 +108,12 @@ export default function PortfolioItem({
           {hasLink && <h2 className="text-xl mt-5">Find the project here:</h2>}
 
           <div className="flex flex-col">
-            {github != null && (
+            {github != "" && (
               <a href={github} target="_blank" className="font-bold mt-1">
                 - GitHub Page
               </a>
             )}
-            {itch != null && (
+            {itch != "" && (
               <a href={itch} target="_blank" className="font-bold mb-1">
                 - Itch Page
               </a>
@@ -102,8 +121,10 @@ export default function PortfolioItem({
           </div>
 
           <div className="mt-auto flex flex-wrap-reverse gap-2 pt-2">
-            {filteredTags.map((tag) => (
-              <TagComponent text={tag} />
+            {filteredTags.map((tag, index) => (
+              <div key={index}>
+                <TagComponent text={tag} />
+              </div>
             ))}
           </div>
         </div>
@@ -117,7 +138,7 @@ type CheckBasedOnTagProps = {
   tags: string[];
 };
 function ThumbnailImage({ img, tags }: CheckBasedOnTagProps) {
-  if (img != null) {
+  if (img != "") {
     return (
       <img
         src={img}

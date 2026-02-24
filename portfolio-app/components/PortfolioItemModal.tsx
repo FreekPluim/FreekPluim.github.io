@@ -1,21 +1,25 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import React from "react";
 import { createPortal } from "react-dom";
 
-export const PortfolioItemModal = ({ isVisible, onClose, children }) => {
-  const [portalRoot, setPortalRoot] = useState<HTMLElement | null>(null);
+interface PortfolioModalProps {
+  isVisible: boolean;
+  onClose: () => void;
+  children: React.ReactNode;
+}
 
-  useEffect(() => {
-    setPortalRoot(document.getElementById("modal-root"));
-  }, []);
+export const PortfolioItemModal = ({
+  isVisible,
+  onClose,
+  children,
+}: PortfolioModalProps) => {
+  const portalRoot =
+    typeof window !== "undefined"
+      ? document.getElementById("modal-root")
+      : null;
 
   if (!portalRoot || !isVisible) return null;
-
-  const handleClose = (e) => {
-    onClose();
-    console.log(isVisible);
-  };
 
   return createPortal(
     <div className="fixed inset-0 z-[9999] flex justify-center items-center">
