@@ -78,18 +78,17 @@ export default function Home() {
       {/*Portfolio Items*/}
       <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-5 ml-5 mr-5">
         {filteredProjects.map((project, index) => (
-          <div key={index}>
-            <PortfolioItem
-              title={project.Name}
-              videoSrc={project.Video}
-              img={project.Img}
-              oneLiner={project.Oneliner}
-              tags={project.Tags}
-              description={project.Description}
-              github={project.GitHub}
-              itch={project.Itch}
-            />
-          </div>
+          <PortfolioItem
+            key={index}
+            title={project.Name}
+            videoSrc={project.Video}
+            img={project.Img}
+            oneLiner={project.Oneliner}
+            tags={project.Tags}
+            description={project.Description}
+            github={project.GitHub}
+            itch={project.Itch}
+          />
         ))}
       </div>
 
