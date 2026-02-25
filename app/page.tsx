@@ -30,7 +30,14 @@ export default function Home() {
   );
 
   return (
-    <>
+    <main
+      className="h-screen
+  overflow-y-auto
+  scrollbar
+  scrollbar-thin
+  scrollbar-thumb-purple-900
+  scrollbar-track-[#23122e]"
+    >
       <h1 className="text-8xl p-5 text-center mb-30 mt-20">Freek Pluim</h1>
 
       {/*ABOUT ME*/}
@@ -116,6 +123,6 @@ export default function Home() {
           Itch.io
         </a>
       </footer>
-    </>
+    </main>
   );
 }
