@@ -28,15 +28,18 @@ export default function Home() {
   const filteredProjects = Projects.filter((project) =>
     project.Tags.includes(tag),
   );
+  const hylightedProjects = Projects.filter((project) =>
+    project.Tags.includes("Highlight"),
+  );
 
   return (
     <main
       className="h-screen
-  overflow-y-auto
-  scrollbar
-  scrollbar-thin
-  scrollbar-thumb-purple-900
-  scrollbar-track-[#23122e]"
+      overflow-y-auto
+      scrollbar
+      scrollbar-thin
+      scrollbar-thumb-purple-900
+      scrollbar-track-[#23122e]"
     >
       <h1 className="text-8xl p-5 text-center mb-30 mt-20">Freek Pluim</h1>
 
@@ -63,8 +66,33 @@ export default function Home() {
         </div>
       </div>
 
-      <h1 className="text-5xl pl-5 pb-3 w-full flex justify-center mb-10">
+      <h1 className="text-6xl font-bold pl-5 w-full flex justify-center mb-10">
         Projects
+      </h1>
+      <h1 className="text-4xl pl-5 pb-3 w-full flex justify-center mb-10">
+        Highlights
+      </h1>
+      {/*Portfolio Items*/}
+      <div className="flex w-full justify-center pb-10">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 ml-5 mr-5 max-w-300">
+          {hylightedProjects.map((project, index) => (
+            <PortfolioItem
+              key={index}
+              title={project.Name}
+              videoSrc={project.Video}
+              img={project.Img}
+              oneLiner={project.Oneliner}
+              tags={project.Tags}
+              description={project.Description}
+              github={project.GitHub}
+              itch={project.Itch}
+            />
+          ))}
+        </div>
+      </div>
+
+      <h1 className="text-5xl pl-5 pb-3 w-full flex justify-center mb-10">
+        All
       </h1>
 
       {/*TAG FILTERS*/}

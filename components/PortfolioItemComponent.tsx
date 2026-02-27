@@ -31,7 +31,9 @@ export default function PortfolioItem({
   github,
   itch,
 }: PortfolioItemProps) {
-  const filteredTags = tags.filter((t: string) => t !== "All");
+  const filteredTags = tags.filter(
+    (t: string) => t !== "All" && t !== "Highlight",
+  );
 
   const [isModalVisible, setIsModalVisible] = useState(false);
 
@@ -43,7 +45,9 @@ export default function PortfolioItem({
         if (isModalVisible) return;
         setIsModalVisible(true);
       }}
-      className="w-full bg-[#23122e] rounded-lg overflow-hidden shadow flex flex-col"
+      className={
+        "w-full rounded-lg overflow-hidden shadow flex flex-col bg-[#23122e] hover:bg-[#2F1840]"
+      }
     >
       {videoSrc != "" && (
         <HoverVideoPlayer
