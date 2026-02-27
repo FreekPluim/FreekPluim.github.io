@@ -82,10 +82,10 @@
         "Itch": ""
     },
     {
-        "Name": "Chippie's Circus",
-        "Img": "",
+        "Name": "Chipi's Show",
+        "Img": "ChipisShow.png",
         "Video": "",
-        "Oneliner": "Chippie the cat needs to entertain the croud by performing tricks on the stage.",
+        "Oneliner": "Chipi the cat needs to entertain the croud by performing tricks on the stage.",
         "Description": [ 
             "<h5>About the game</h5>",
             "<p>General information of the game</p>",
@@ -93,8 +93,8 @@
             "<p>My contribution to the game</p>"
         ],
         "Tags": ["All", "Unity", "GameJam", "Team", "MiniGames", "3D"],
-        "GitHub": "",
-        "Itch": ""
+        "GitHub": "https://github.com/FreekPluim/GGJ2024",
+        "Itch": "https://s4lt1.itch.io/chipis-show"
     },
     {
         "Name": "Lux et Nox",
