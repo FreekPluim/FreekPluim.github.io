@@ -5,12 +5,9 @@
         "Img": "./CallForAction.png",
         "Video": "/CallForAction.mp4",
         "Oneliner": "A game where you complete menial tasks within a timelimit or else get punished",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>This project was created by me as a solo developer in 36 hours during a gamejam hosted by Study assotiation XP. In this game you complete small tasks before the timer runs out on said task. If you fail 3 in 1 day, the day will end and you will get 1 strike. If you get 3 strikes you are out. Every day, more tasks will be added with different time limits and different difficulty levels. On day 5, no more tasks will be added, but the time you have on each task will be shortened.</p><br/>",
-            "<p>The tasks are not difficult, but remember! If you need help, you can always call 6.</p>"
-        ],
-            "Tags": ["All", "Unity", "Solo", "GameJam", "3D", "Highlight"],
+        "Description": "This project was created by me as a solo developer in 36 hours during a gamejam hosted by Study assotiation XP. In this game you complete small tasks before the timer runs out on said task. If you fail 3 in 1 day, the day will end and you will get 1 strike. If you get 3 strikes you are out. Every day, more tasks will be added with different time limits and different difficulty levels. On day 5, no more tasks will be added, but the time you have on each task will be shortened. The tasks are not difficult, but remember! If you need help, you can always call 6.",
+        "MyContribution": ["Everything"],
+        "Tags": ["All", "Unity", "Solo", "GameJam", "3D", "Highlight"],
         "GitHub": "https://github.com/FreekPluim/XP-GameJam2025",
         "Itch": "https://s4lt1.itch.io/call-for-action"
     },
@@ -19,24 +16,8 @@
         "Img": "./ShadowsOfSingraven.png",
         "Video": "/ShadowsOfSingraven.mp4",
         "Oneliner": "A puzzle, horror game about the legend of 'De non van Singraven'.",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>This game was created for Project Tweeduuster. A project set up by Mark Boerrichter to bring the myths and legends from the Twente region of the Netherlands to the new generation. In this game, you play as a one of the last witchhunters in the netherlands and you have been tasked to find out what has happening at Singraven Manor. The game itself is a small first-person semi-open-world puzzle horror game created in Unreal Engine 5.4</p>",
-            "<p>My contribution to the game</p>",
-            "<ul>",
-            "<li>Movement</li>",
-            "<li>Map grid</li>",
-            "<li>Box Movement / interaction</li>",
-            "<li>Button interaction </li>",
-            "<li>Dash interaction</li>",
-            "<li>Audio</li>",
-            "</ul>",
-            "<h5>Story</h5>",
-            "<p>Over 500 years ago, Singraven Manor was a convent. The nun died in mysterious circumstances. She was unfairly sentenced and bricked alive into the wall by other nuns. Every soul living in Singraven heard her cries and screams until the nun’s last breath.</p>",
-            "<p>100 years past, the Netherlands was the first to stop executing witches. While magic faded, a new conflict arose: Protestants clashed with Catholics. Yet, farmers still believed in the paranormal. Singraven owners are terrified, and as the last witch hunter, your mission is to uncover the truth. Do you hear it? The nun is screaming... Can you feel it? It is your heartbeat. </p>",
-            "<h5>My contribution</h5>"
-            
-        ],        
+        "Description": "This game was created for Project Tweeduuster. A project set up by Mark Boerrichter to bring the myths and legends from the Twente region of the Netherlands to the new generation. In this project we worked with a multi-diciplinary team of 10 people of Artist, Designer and Engineer roles. In this game, you play as a one of the last witchhunters in the netherlands and you have been tasked to find out what has happening at Singraven Manor. The game itself is a small first-person semi-open-world puzzle horror game created in Unreal Engine 5.4",   
+        "MyContribution": ["Puzzle functionality", "General gameplay engineer", "Tools programming", "Optimization", "Git Manager"],
         "Tags": ["All", "Unreal Engine 5.4", "Team", "Puzzle", "Horror", "Folklore", "3D", "Highlight"],
         "GitHub": "",
         "Itch": "https://tygodev.itch.io/tweeduuster-vertical-slice"
@@ -46,20 +27,8 @@
         "Img": "./TowerOfMasks.png",
         "Video": "",
         "Oneliner": "A 2D, Topdown puzzle game where you use the abilties of masks to get through rooms.",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>This game was made during Global Gamejam 2026 with as theme Mask. The game itself is a 2D, Top-Down, puzzle game where you have to use the power of the masks to get through the different rooms.</p>",
-            "<h5>My contribution</h5>",
-            "<p>This game was created by me and 2 other developers (1 programmer, 1 artist). In the game I made the following mechanics and features:</p>",
-            "<ul>",
-            "<li>Movement</li>",
-            "<li>Map grid</li>",
-            "<li>Box Movement / interaction</li>",
-            "<li>Button interaction </li>",
-            "<li>Dash interaction</li>",
-            "<li>Audio</li>",
-            "</ul>"
-        ],
+        "Description": "This game was made during Global Gamejam 2026 with as theme Mask. The game itself is a 2D, Top-Down, puzzle game where you have to use the power of the masks to get through the different rooms.",
+        "MyContribution": ["Movement", "Map grid", "Box Movement / interaction", "Button interaction", "Dash interaction", "Audio"],
         "Tags": ["All", "Unity", "GameJam", "Team", "Puzzle", "2D"],
         "GitHub": "https://github.com/FreekPluim/GGJ2026",
         "Itch": "https://s4lt1.itch.io/tower-of-masks"
@@ -69,29 +38,19 @@
         "Img": "./BeforeTheStorm.png",
         "Video": "./BeforeTheStorm.mp4",
         "Oneliner": "A game where you try to get as many animals back to the barn before the storm arives.",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>Story</h5>",
-            "<p>The story of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
+        "Description": "This game was created by me as a solo developer for the GameJam hosted by studie association XP in 2024 with the theme 'Can't save them all'. In the game you lasso the sheep and cows, and pick up the chickens to bring as many of them back to the barn before the storm. It uses physics for the lassoëd animals to create very goofy gameplay.",
+        "MyContribution": ["Everything"],
         "Tags": ["All", "Unity", "GameJam", "Solo", "3D", "Voxel"],
-        "GitHub": "",
-        "Itch": ""
+        "GitHub": "https://github.com/FreekPluim/XPGameJam2024",
+        "Itch": "https://s4lt1.itch.io/before-the-storm"
     },
     {
         "Name": "Chipi's Show",
         "Img": "ChipisShow.png",
         "Video": "",
         "Oneliner": "Chipi the cat needs to entertain the croud by performing tricks on the stage.",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
+        "Description": "This game was created during Global GameJam 2024 with the theme 'Make me laugh'. I made it together with my girlfriend, who did all the art for the game while i did all programming. In this game, you play as chipi and need to entertain the crowd by doing tricks on stage. These present themselves as minigames. 'Juggeling' where you have to press keyboard keys in the right order. 'Uni-cycle balancing' where you need to keep the large bar over the small bar, and 'Whoopy couchen' where you have to spam space bar to blow it up.",
+        "MyContribution": ["All programming work"],
         "Tags": ["All", "Unity", "GameJam", "Team", "MiniGames", "3D"],
         "GitHub": "https://github.com/FreekPluim/GGJ2024",
         "Itch": "https://s4lt1.itch.io/chipis-show"
@@ -101,14 +60,10 @@
         "Img": "./LuxetNox.png",
         "Video": "./LuxEtNox.mp4",
         "Oneliner": "2 cats make their way through a dungeon. one can't touch light, the other cannot touch darkness.",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
-        "Tags": ["All", "Unity", "GameJam", "Team", "MiniGames", "3D"],
-        "GitHub": "",
+        "Description": "This game was created for Global GameJam 2022. In this co-op game, you and a friend play as cats Lux and Nox. Lux can't touch the dark, Nox can't touch the light. Together you will have to make your way through all the levels.",
+        "MyContribution": [],
+        "Tags": ["All", "Unity", "GameJam", "Team", "MiniGames", "CO-OP", "3D"],
+        "GitHub": "https://github.com/Zaftan/GGJ2022/tree/development",
         "Itch": ""
     },
     {
@@ -116,12 +71,8 @@
         "Img": "./XPWolves.png",
         "Video": "",
         "Oneliner": "A bot made for study assotiation XP to play werewolves for a week long in discord.",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
+        "Description": "",
+        "MyContribution": ["Everything"],
         "Tags": ["All", "JavaScript", "Discord Bot", "Werewolves", "MongoDB"],
         "GitHub": "",
         "Itch": ""
@@ -130,13 +81,9 @@
         "Name": "Identification Station",
         "Img": "./IdentificationStation.png",
         "Video": "./IdentificationStation.mp4",
-        "Oneliner": "You are an artificer working to figure out what the wizard have made this time...",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
+        "Oneliner": "You are an artificer working to figure out what the wizards have made this time...",
+        "Description": "This game was created for a GameJam hosted by the study 'Creative Media & Game Technology' with as theme 'Identity'. In the game, you play as an artificer who identifies magical objects created by the wizards. You do this by using artifacts (Minigames). These minigames are 'Simon Says', 'Stardew Fishing minigame', and 'Timing'.",
+        "MyContribution": ["Minigames", "Audio"],
         "Tags": ["All", "Unity", "GameJam", "Team", "MiniGames", "3D"],
         "GitHub": "",
         "Itch": ""
@@ -146,14 +93,10 @@
         "Img": "./Brewconomy.png",
         "Video": "",
         "Oneliner": "You're a potion seller, brewing potions and selling them to all different types of people",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
+        "Description": "This game was made in 3 weeks for a school project. In the game you have to brew potions on request of your customers, in between days you'll have to refill your stock and read the newspaper to see for upcomming events where certain potions will be more desired.",
+        "MyContribution": ["Potion brewing mechanic", "Customer Interaction mechanic", "Events mechanic"],
         "Tags": ["All", "Unity", "Team", "Puzzle", "Cozy", "Economy", "Fantasy"],
-        "GitHub": "",
+        "GitHub": "https://github.com/Zaftan/ProjectStartup",
         "Itch": ""
     },
     {
@@ -161,13 +104,9 @@
         "Img": "",
         "Video": "",
         "Oneliner": "A VR simulation, simulating a supermarket to help people who had a stoumach reduction how to shop healthier.",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
-        "Tags": ["All", "Unreal Engine 5.4", "Team", "Simulation", "Healthcare", "VR", "3D", "Serious"],
+        "Description": "",
+        "MyContribution": [],
+        "Tags": ["All", "Unreal Engine 5.4", "Team", "Simulation", "Healthcare", "VR", "3D", "Serious Gaming"],
         "GitHub": "",
         "Itch": ""
     },
@@ -176,13 +115,9 @@
         "Img": "",
         "Video": "./Reintegration.mp4",
         "Oneliner": "A simulation for employers to feel like how it is to have burnout.",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
-        "Tags": ["All", "Unreal Engine 5.4", "Team", "Simulation", "Healthcare", "VR", "3D", "Serious"],
+        "Description": "",
+        "MyContribution": [],
+        "Tags": ["All", "Unreal Engine 5.4", "Team", "Simulation", "Healthcare", "VR", "3D", "Serious Gaming"],
         "GitHub": "",
         "Itch": ""
     },
@@ -191,13 +126,9 @@
         "Img": "",
         "Video": "",
         "Oneliner": "An app created for Enschede Promotie. It is used for people to walk through Enschede and use their camera to show what some buildings used to look like",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
-        "Tags": ["All", "Unity", "Team", "AR", "2D", "3D", "Niantic", "AR Foundation", "Enschede Promotie", "Serious"],
+        "Description": "An app created for Enschede Promotie. It is used for people to walk through Enschede and use their camera to show what some buildings used to look like.",
+        "MyContribution": ["Niantic Intergration", "UI / Menu's"],
+        "Tags": ["All", "Unity", "Team", "AR", "2D", "3D", "Niantic", "AR Foundation", "Enschede Promotie", "Serious Gaming"],
         "GitHub": "",
         "Itch": ""
     },
@@ -206,12 +137,8 @@
         "Img": "",
         "Video": "",
         "Oneliner": "The website you currently find yourself on",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
+        "Description": "This website i made as a way for me to learn how to work with NextJS and TailwindCSS. I feel like i gained a good base knowledge of how to work with these frameworks now.",
+        "MyContribution": ["Everything"],
         "Tags": ["All", "Web", "Solo", "NextJS", "TypeScript", "Highlight"],
         "GitHub": "",
         "Itch": ""
@@ -221,12 +148,8 @@
         "Img": "",
         "Video": "",
         "Oneliner": "Updating and managing the front-end of a website used by Saxion Univeristy for hour registration.",
-        "Description": [ 
-            "<h5>About the game</h5>",
-            "<p>General information of the game</p>",
-            "<h5>My contribution</h5>",
-            "<p>My contribution to the game</p>"
-        ],
+        "Description": "",
+        "MyContribution": [],
         "Tags": ["All", "Web", "Team", "Angular 14", "SQL"],
         "GitHub": "",
         "Itch": ""

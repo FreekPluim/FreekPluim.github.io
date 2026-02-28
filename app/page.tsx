@@ -84,6 +84,7 @@ export default function Home() {
               oneLiner={project.Oneliner}
               tags={project.Tags}
               description={project.Description}
+              myContribution={project.MyContribution}
               github={project.GitHub}
               itch={project.Itch}
             />
@@ -121,6 +122,7 @@ export default function Home() {
             oneLiner={project.Oneliner}
             tags={project.Tags}
             description={project.Description}
+            myContribution={project.MyContribution}
             github={project.GitHub}
             itch={project.Itch}
           />

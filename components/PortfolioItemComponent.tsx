@@ -16,7 +16,8 @@ interface PortfolioItemProps {
   img: string;
   oneLiner: string;
   tags: string[];
-  description: string[];
+  description: string;
+  myContribution: string[];
   github: string;
   itch: string;
 }
@@ -28,6 +29,7 @@ export default function PortfolioItem({
   oneLiner,
   tags,
   description,
+  myContribution,
   github,
   itch,
 }: PortfolioItemProps) {
@@ -86,7 +88,7 @@ export default function PortfolioItem({
           <h1 className="text-3xl font-bold flex justify-center">{title}</h1>
           {videoSrc != "" && (
             <HoverVideoPlayer
-              className="w-full object-cover"
+              className="w-full object-cover mb-2"
               videoSrc={videoSrc}
               pausedOverlay={<ThumbnailImage img={img} tags={tags} />}
               loadingOverlay={
@@ -97,17 +99,23 @@ export default function PortfolioItem({
             />
           )}
           {videoSrc == "" && (
-            <div>
+            <div className="mb-2">
               <ThumbnailImage img={img} tags={tags} />
             </div>
           )}
-          {description.map((line: string, index) => (
-            <div
-              key={index}
-              className={"mt-2"}
-              dangerouslySetInnerHTML={{ __html: line }}
-            ></div>
-          ))}
+          <h5>Description</h5>
+          <p className={"mt-2 mb-2"}>{description}</p>
+
+          {myContribution != null && myContribution.length > 0 && (
+            <div>
+              <h5>My Contribution</h5>
+              <ul>
+                {myContribution.map((contribution) => (
+                  <li key={contribution}>- {contribution}</li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {hasLink && <h2 className="text-xl mt-5">Find the project here:</h2>}
 
