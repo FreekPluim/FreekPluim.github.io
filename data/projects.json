@@ -116,7 +116,7 @@
         "Video": "./Reintegration.mp4",
         "Oneliner": "A simulation for employers to feel like how it is to have burnout.",
         "Description": "",
-        "MyContribution": [],
+        "MyContribution": ["Bug fixing", "VR Video room", "Fade between scenes", "Adaptive sound system"],
         "Tags": ["All", "Unreal Engine 5.4", "Team", "Simulation", "Healthcare", "VR", "3D", "Serious Gaming"],
         "GitHub": "",
         "Itch": ""
@@ -144,12 +144,12 @@
         "Itch": ""
     },
     {
-        "Name": "Hour Registration Website",
+        "Name": "Hour Registration Website (Betapool)",
         "Img": "",
         "Video": "",
         "Oneliner": "Updating and managing the front-end of a website used by Saxion Univeristy for hour registration.",
-        "Description": "",
-        "MyContribution": [],
+        "Description": "This was a project that i did for Saxion University of Aplied Science. The website meant for hour registration by the students working for Saxion Studentpool. Prior to us updating the website, it worked on AngularJS. I updated it to Angular 14 and reworked everything to propperly function.",
+        "MyContribution": ["Front-end update", "Some SQL"],
         "Tags": ["All", "Web", "Team", "Angular 14", "SQL"],
         "GitHub": "",
         "Itch": ""
