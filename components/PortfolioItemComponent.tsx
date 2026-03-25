@@ -85,7 +85,9 @@ export default function PortfolioItem({
         onClose={() => setIsModalVisible(false)}
       >
         <div className="w-full p-2">
-          <h1 className="text-3xl font-bold flex justify-center">{title}</h1>
+          <h1 className="text-3xl font-bold flex justify-center mb-2">
+            {title}
+          </h1>
           {videoSrc != "" && (
             <HoverVideoPlayer
               className="w-full object-cover mb-2"

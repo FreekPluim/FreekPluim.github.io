@@ -103,9 +103,9 @@
         "Name": "Bariatric care",
         "Img": "",
         "Video": "",
-        "Oneliner": "A VR simulation, simulating a supermarket to help people who had a stoumach reduction how to shop healthier.",
-        "Description": "",
-        "MyContribution": [],
+        "Oneliner": "A VR simulation, simulating a supermarket to help people who had a stoumach reduction learn how to shop healthier.",
+        "Description": "This project was made my internship at Saxion XR Lab. it is a VR simulation, simulating a supermarket to help people who had a stoumach reduction learn how to shop healthier.",
+        "MyContribution": ["UE Widgets (UI)", "Interaction", "Tooling"],
         "Tags": ["All", "Unreal Engine 5.4", "Team", "Simulation", "Healthcare", "VR", "3D", "Serious Gaming"],
         "GitHub": "",
         "Itch": ""
@@ -115,8 +115,8 @@
         "Img": "",
         "Video": "./Reintegration.mp4",
         "Oneliner": "A simulation for employers to feel like how it is to have burnout.",
-        "Description": "",
-        "MyContribution": ["Bug fixing", "VR Video room", "Fade between scenes", "Adaptive sound system"],
+        "Description": "This project was made my internship at Saxion XR Lab. It is a combination of 3 projects where i primarily focussed on the 'perspective swich'. This VR experience in meant for employers to feel what it is like to suffer from burnout. This is done by both visual and sound indicator like a raised heart rate, sences like sound and light becomming louder and brighter and a constant flow of more and more information or tasks they would have to do. This all ending with the video you see when hovering over the thumbnail image, where your partner is mad at you that you are always working. All this combined makes for a very immersive experience which really gives you perspective on what it is like to have burnout.",
+        "MyContribution": ["Bug fixing", "VR Video room", "Fade between scenes", "Adaptive sound system", "Design"],
         "Tags": ["All", "Unreal Engine 5.4", "Team", "Simulation", "Healthcare", "VR", "3D", "Serious Gaming"],
         "GitHub": "",
         "Itch": ""
